@@ -63,7 +63,7 @@ class TestCaseGeneratorApp:
                 model="deepseek-ai/DeepSeek-V3",
                 messages=[{
                     'role': 'user',
-                    'content': """请根据以下需求文档生成详细的测试用例，每个功能点都需要详细的用例，要求包含以下要素：
+                    'content': f"""请根据以下需求文档生成详细的测试用例，每个功能点都需要详细的用例，要求包含以下要素：
                     1. 测试用例编号
                     2. 测试场景
                     3. 前置条件
